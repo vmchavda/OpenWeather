@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Home Page Logo is shown]]>
+    </line>
+    <line>
+      <![CDATA[ Home page weather widget is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Graph is dispaying]]>
+    </line>
+    <line>
+      <![CDATA[Number of links in the page are correct]]>
+    </line>
+    <line>
+      <![CDATA[openWeatherHomePage city searching]]>
+    </line>
+    <line>
+      <![CDATA[Not Found Worning message dispalying]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore city zipcode searching]]>
+    </line>
+    <line>
+      <![CDATA[Multiple City Search Results are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore city Weather dispayed]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore city searching]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore Weather dispayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94718" started-at="2018-12-02T21:17:34Z" finished-at="2018-12-02T21:19:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94718" started-at="2018-12-02T21:17:34Z" finished-at="2018-12-02T21:19:09Z">
+      <class name="com.openweathermap.www.testcases.EndToEndScenario">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="setExtent" is-config="true" duration-ms="289" started-at="2018-12-03T02:47:34Z" finished-at="2018-12-03T02:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="initizatalion()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="initizatalion" is-config="true" duration-ms="27642" started-at="2018-12-03T02:47:34Z" finished-at="2018-12-03T02:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initizatalion -->
+        <test-method status="PASS" signature="HomePageValidation()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="HomePageValidation" duration-ms="677" started-at="2018-12-03T02:48:02Z" finished-at="2018-12-03T02:48:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Logo is shown]]>
+            </line>
+            <line>
+              <![CDATA[ Home page weather widget is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Home Page Graph is dispaying]]>
+            </line>
+            <line>
+              <![CDATA[Number of links in the page are correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="teadDown" is-config="true" duration-ms="907" started-at="2018-12-03T02:48:02Z" finished-at="2018-12-03T02:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+        <test-method status="PASS" signature="initizatalion()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="initizatalion" is-config="true" duration-ms="12016" started-at="2018-12-03T02:48:03Z" finished-at="2018-12-03T02:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initizatalion -->
+        <test-method status="PASS" signature="InValidCitySearch()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="InValidCitySearch" duration-ms="11416" started-at="2018-12-03T02:48:15Z" finished-at="2018-12-03T02:48:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[openWeatherHomePage city searching]]>
+            </line>
+            <line>
+              <![CDATA[Not Found Worning message dispalying]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InValidCitySearch -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="teadDown" is-config="true" duration-ms="1352" started-at="2018-12-03T02:48:27Z" finished-at="2018-12-03T02:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+        <test-method status="PASS" signature="initizatalion()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="initizatalion" is-config="true" duration-ms="11075" started-at="2018-12-03T02:48:28Z" finished-at="2018-12-03T02:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initizatalion -->
+        <test-method status="PASS" signature="ZipCodeSearch()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="ZipCodeSearch" duration-ms="3065" started-at="2018-12-03T02:48:39Z" finished-at="2018-12-03T02:48:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bangalore city zipcode searching]]>
+            </line>
+            <line>
+              <![CDATA[Multiple City Search Results are displayed]]>
+            </line>
+            <line>
+              <![CDATA[Bangalore city Weather dispayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ZipCodeSearch -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="teadDown" is-config="true" duration-ms="982" started-at="2018-12-03T02:48:42Z" finished-at="2018-12-03T02:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+        <test-method status="PASS" signature="initizatalion()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="initizatalion" is-config="true" duration-ms="10580" started-at="2018-12-03T02:48:43Z" finished-at="2018-12-03T02:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initizatalion -->
+        <test-method status="PASS" signature="test_03()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="test_03" duration-ms="12622" started-at="2018-12-03T02:48:54Z" finished-at="2018-12-03T02:49:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bangalore city searching]]>
+            </line>
+            <line>
+              <![CDATA[Bangalore Weather dispayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_03 -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="teadDown" is-config="true" duration-ms="878" started-at="2018-12-03T02:49:06Z" finished-at="2018-12-03T02:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.openweathermap.www.testcases.EndToEndScenario@721e0f4f]" name="endReport" is-config="true" duration-ms="1193" started-at="2018-12-03T02:49:07Z" finished-at="2018-12-03T02:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.openweathermap.www.testcases.EndToEndScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

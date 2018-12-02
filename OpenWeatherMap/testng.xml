@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenWeather" parallel="none">
+  <test name="VimalChavdaSuite">
+    <classes>
+      <class name="com.openweathermap.www.testcases.EndToEndScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- OpenWeather -->
